@@ -1,6 +1,7 @@
 #include <iostream>
+#include <cmath>
 
-
+using namespace std;
 int main(){
     int x = 3;
     int y = 2;
@@ -12,10 +13,16 @@ int main(){
     int r = x % y;
     x   = x +1  ; // output = 4
     x  ++ ; // output = 5
-    int z = x ++ ; // output z  = 5 , x = 6 ;
-    int z  = ++x ; // output z = 7 , x = 7
+    int z = x ++; // output z  = 5 , x = 6
+     z = ++x; // output z = 7 , x = 7
+    z += 10; // output = 17
     
-    std :: cout << x;
+     cout << z << endl; 
+        double result = floor(2.3); // ceil is the opposite of floor  
+    cout << result<< endl;
+    double result1 = pow(2, 3); //3 power or 2;=
+    cout << result1<< endl;
+    cout << fmax(x,y)<< endl;
     return 0;
 
 
