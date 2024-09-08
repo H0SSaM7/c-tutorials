@@ -7,8 +7,13 @@ void sayMyName(string name){
 
 
 }
+
+double cupe(int num) {
+    return num * num * num;
+}
 int main (){
     sayMyName("hossam");
     sayMyName("Ahmed");
+    cout << cupe(5);
     return 0;
 }
