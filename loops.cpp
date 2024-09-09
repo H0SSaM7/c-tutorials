@@ -15,5 +15,9 @@ int main (){
         cout << index << endl;
         index++;
     }while (index < 6);
+
+    for(int i = 1; i<5; i++){
+        cout << "hello " << i << endl ;
+    }
     
 }
